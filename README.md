@@ -3,7 +3,7 @@
 **moving-point-charges** is an open-source Python library for simulating the full 3D electromagnetic fields and potentials generated from moving point charges in arbitrary motion with varying speeds (see [arXiv](https://arxiv.org/abs/2010.01558) for paper).
 
 <p align="center">
-  <img width="300" src="https://github.com/MatthewFilipovich/moving-point-charges/blob/main/Paper_Figures/Animations/readme.gif">
+  <img width="300" src="https://github.com/MatthewFilipovich/moving-point-charges/blob/master/Paper_Figures/Animations/readme.gif">
 </p>
 
 ## Getting Started
