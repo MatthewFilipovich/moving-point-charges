@@ -50,9 +50,9 @@ for k, num_e in enumerate([16, 64, 256]):
 B_total[0] *= 16
 B_total[1] *= 4
 B_total[2] *= 1
-plt.plot(B_total[0], label='n=16')
-plt.plot(B_total[1], label='n=64')
-plt.plot(B_total[2], label='n=256')
+plt.plot(B_total[0], label='$n=16$')
+plt.plot(B_total[1], label='$n=64$')
+plt.plot(B_total[2], label='$n=256$')
 plt.gca().ticklabel_format(style='sci', scilimits=(-3, 4), axis='both')
 
 plt.xlim(0, 100)

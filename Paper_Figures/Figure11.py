@@ -123,11 +123,11 @@ ims[6].set_data(B[0][2].T*16)
 ims[7].set_data(B[1][2].T*4)
 ims[8].set_data(B[2][2].T*1)
 
-axes[0].text(0.26, 1.25, '$\mathbf{Total}$',
+axes[0].text(0.26, 1.25, '$\mathbf{n=16}$',
              transform=axes[0].transAxes, size=10)
-axes[1].text(0.1, 1.25, '$\mathbf{Coulomb}$',
+axes[1].text(0.26, 1.25, '$\mathbf{n=64}$',
              transform=axes[1].transAxes, size=10)
-axes[2].text(0.08, 1.25, '$\mathbf{Radiation}$',
+axes[2].text(0.26, 1.25, '$\mathbf{n=256}$',
              transform=axes[2].transAxes, size=10)
 
 for i, label in zip((2, 5, 8), ('$E_x$ [N/C]', '$E_y$ [N/C]', '$B_z$ [T]')):
