@@ -61,9 +61,9 @@ for count, x in enumerate(X_plot):
 
 fig = plt.figure(figsize=(width, width/1.618))
 
-plt.semilogy(X_plot*1e9, max_rel_error[0], label='$n=16$')
-plt.semilogy(X_plot*1e9, max_rel_error[1], label='$n=64$')
-plt.semilogy(X_plot*1e9, max_rel_error[2], label='$n=256$')
+plt.semilogy(X_plot*1e9, max_rel_error[2], label='$n=256$', color='red')
+plt.semilogy(X_plot*1e9, max_rel_error[1], label='$n=64$', color='#6baed6')
+plt.semilogy(X_plot*1e9, max_rel_error[0], label='$n=16$', color='green', linestyle='dashed', dashes=(2, 1))
 
 plt.xlabel('$x$ [nm]')
 plt.ylabel('Maximum Relative Error [\%]')
@@ -73,4 +73,3 @@ plt.legend()
 savename = 'Figure13'
 plt.savefig('Figs/'+savename+'.pdf', format='pdf',
             bbox_inches='tight', pad_inches=0.02, dpi=500)
-plt.show()
